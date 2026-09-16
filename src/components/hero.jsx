@@ -1,4 +1,5 @@
-import { Bolt, CheckCircle2, Phone } from 'lucide-react';
+import { CheckCircle2, Phone } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Hero({ whatsapp, phone, Button }) {
   return (
@@ -9,7 +10,7 @@ export default function Hero({ whatsapp, phone, Button }) {
           <h1>Your EV scooter.<br /><span>My expertise.</span></h1>
           <p className="hero-copy">Experienced two-wheeler mechanic specializing in electric scooter servicing, troubleshooting, electrical diagnosis, and repairs.</p>
           <div className="hero-actions">
-            <Button href={whatsapp}><Bolt size={17} /> WhatsApp me</Button>
+            <Button href={whatsapp}><FaWhatsapp size={17} /> WhatsApp me</Button>
             <Button href={`tel:${phone}`} variant="outline"><Phone size={17} /> Call now</Button>
           </div>
           <div className="hero-notes">

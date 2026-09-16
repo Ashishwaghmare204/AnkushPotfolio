@@ -7,8 +7,8 @@ import { Inter, Space_Grotesk } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space' });
 export const metadata = {
-    title: 'Rahul Patil | EV Scooter & Two-Wheeler Specialist',
-    description: 'Experienced EV scooter mechanic in Kinwat, Maharashtra. Honest diagnosis and reliable two-wheeler repairs.',
+    title: 'Ankush Waghmare | EV Scooter & Two-Wheeler Specialist',
+    description: 'Experienced EV scooter mechanic in PCMC Pune, Maharashtra. Honest diagnosis and reliable two-wheeler repairs.',
     openGraph: {
         images: [
             {
